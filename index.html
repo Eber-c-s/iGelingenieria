@@ -60,6 +60,22 @@
   footer .mt-4.flex.gap-2 { position:relative; left:50%; transform:translateX(-50%); width:max-content; justify-content:center !important; align-items:center; }
 </style>
 <link rel="preload" as="image" href="images/hero.webp" fetchpriority="high">
+
+<style id="igel-gallery-responsive">
+  /* El visor queda dentro del alto visible; el panel puede desplazarse sin usar zoom. */
+  #root .fixed.inset-0[class*="z-[80]"] { display:flex !important; align-items:center; justify-content:center; overflow-y:auto !important; overflow-x:hidden !important; padding:10px !important; }
+  #root .fixed.inset-0[class*="z-[80]"] > [class*="max-w-[880px]"] { width:min(100%,960px) !important; max-height:calc(100vh - 20px) !important; max-height:calc(100dvh - 20px) !important; overflow-x:hidden !important; overflow-y:auto !important; overscroll-behavior:contain; }
+  #root .fixed.inset-0[class*="z-[80]"] > [class*="max-w-[880px]"] > [class*="h-[360px]"] { height:clamp(130px,22vh,210px) !important; }
+  #root .fixed.inset-0[class*="z-[80]"] [class*="p-6"] { padding:clamp(16px,2.4vw,28px) !important; }
+  #root .fixed.inset-0[class*="z-[80]"] img[alt*="fotografía"] { width:100% !important; height:min(42vh,380px) !important; height:min(42dvh,380px) !important; max-height:min(42vh,380px) !important; max-height:min(42dvh,380px) !important; object-fit:contain !important; }
+  #root .fixed.inset-0[class*="z-[80]"] [class*="overflow-x-auto"] { scrollbar-width:thin; }
+  @media (max-width:640px) {
+    #root .fixed.inset-0[class*="z-[80]"] { padding:8px !important; }
+    #root .fixed.inset-0[class*="z-[80]"] > [class*="max-w-[880px]"] { max-height:calc(100vh - 16px) !important; max-height:calc(100dvh - 16px) !important; border-radius:16px !important; }
+    #root .fixed.inset-0[class*="z-[80]"] > [class*="max-w-[880px]"] > [class*="h-[360px]"] { height:clamp(120px,18vh,160px) !important; }
+    #root .fixed.inset-0[class*="z-[80]"] img[alt*="fotografía"] { height:min(38vh,320px) !important; height:min(38dvh,320px) !important; max-height:min(38vh,320px) !important; max-height:min(38dvh,320px) !important; }
+  }
+</style>
 </head>
 <body id="inicio">
   <div id="root"><div class="min-h-screen bg-[#0B0F0A] text-[#E8EBE4] selection:bg-[#8BC53F] selection:text-black font-[Geist,Inter,system-ui,sans-serif] overflow-x-clip antialiased"><style>
