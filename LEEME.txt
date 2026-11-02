@@ -1,7 +1,0 @@
-IGEL Ingeniería y Construcción — versión revisada
-
-Abra index.html en un navegador. Las dos carpetas de galerías deben permanecer junto a index.html para que las fotos y las galerías de proyecto carguen correctamente.
-
-Galerías incluidas:
-- galeria-fwd-agro-lampa (15 fotos)
-- galeria-bodega-san-ignacio (15 fotos)
