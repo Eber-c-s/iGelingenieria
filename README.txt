@@ -1,8 +1,5 @@
-IGEL Ingeniería y Construcción — proyecto revisado, 2 de noviembre de 2026.
+IGEL Ingeniería y Construcción — versión con proyectos y galerías WebP.
 
-Contenido: index.html, carpeta images, README.txt y REVISION.md.
-Incluye 12 proyectos, 11 galerías y 271 fotografías de galería.
+Abra index.html en un navegador. El hero usa la fotografía panorámica de la cubierta azul de la Escuela Pablo Neruda, Coquimbo. Incluye 11 proyectos con 271 fotografías WebP optimizadas; las imágenes están en images/proyectos.
 
-Para GitHub Pages: sube index.html y la carpeta images al mismo nivel. No subas el ZIP sin descomprimir.
-Lee REVISION.md para conocer las correcciones, las pruebas y los datos pendientes de confirmar.
-El formulario prepara un mensaje de WhatsApp; la persona debe enviarlo allí. No envía correos automáticamente.
+Las galerías se abren al seleccionar una tarjeta con fotos. La tarjeta de Valle de Aconcagua se conserva sin galería porque el ZIP no trae una carpeta de imágenes con ese nombre.
