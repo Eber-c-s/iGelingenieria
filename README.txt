@@ -1,3 +1,5 @@
-IGEL Ingeniería y Construcción — versión con selección de imágenes.
+IGEL Ingeniería y Construcción — versión con proyectos y galerías WebP.
 
-Abra index.html en un navegador. Conserva las fotos de paneles solares, la sede IGEL y el recurso visual de marca que aparece en tus capturas. Se retiraron del contenido visible las demás fotos y las galerías de proyectos. Los iconos de Instagram y WhatsApp quedan centrados en el pie; el botón flotante mantiene el icono de WhatsApp.
+Abra index.html en un navegador. El hero usa la fotografía panorámica de la cubierta azul de la Escuela Pablo Neruda, Coquimbo. Incluye 11 proyectos con 271 fotografías WebP optimizadas; las imágenes están en images/proyectos.
+
+Las galerías se abren al seleccionar una tarjeta con fotos. La tarjeta de Valle de Aconcagua se conserva sin galería porque el ZIP no trae una carpeta de imágenes con ese nombre.
