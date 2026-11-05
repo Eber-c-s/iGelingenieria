@@ -98,7 +98,45 @@
 @media(max-width:639px){.client-grid li:last-child{grid-column:1/-1}.client-grid li:last-child .client-logo-panel{height:112px}.client-logo-panel{padding:16px;height:120px}.client-logo-panel img{height:80px}}
 @media(min-width:640px){.client-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(min-width:1024px){.client-container{padding:64px 32px}.client-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:20px}}
-</style><style>.about-brand{width:56px;height:56px;flex:none;object-fit:cover;border-radius:12px;box-shadow:0 0 0 1px rgba(0,0,0,.12)}.about-kicker{font-size:14px;line-height:1.2;letter-spacing:.18em}.about-photo{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}@media(min-width:1024px){.about-photo{height:560px;aspect-ratio:auto}}@media(max-width:1023px){.about-location{position:static;margin-top:12px}}@media(max-width:480px){.about-brand{width:48px;height:48px}.about-kicker{font-size:13px;letter-spacing:.12em}}</style><style id="igel-reduced-motion">@media (prefers-reduced-motion: reduce) { html:focus-within { scroll-behavior:auto !important; } *, *::before, *::after { animation:none !important; transition:none !important; scroll-behavior:auto !important; } }</style></head>
+</style><style>.about-brand{width:56px;height:56px;flex:none;object-fit:cover;border-radius:12px;box-shadow:0 0 0 1px rgba(0,0,0,.12)}.about-kicker{font-size:14px;line-height:1.2;letter-spacing:.18em}.about-photo{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}@media(min-width:1024px){.about-photo{height:560px;aspect-ratio:auto}}@media(max-width:1023px){.about-location{position:static;margin-top:12px}}@media(max-width:480px){.about-brand{width:48px;height:48px}.about-kicker{font-size:13px;letter-spacing:.12em}}</style><style id="igel-reduced-motion">@media (prefers-reduced-motion: reduce) { html:focus-within { scroll-behavior:auto !important; } *, *::before, *::after { animation:none !important; transition:none !important; scroll-behavior:auto !important; } }</style><style id="igel-mobile-layout-fix">
+@media (max-width: 639px) {
+  #home .grid-cols-3 > div {
+    min-width: 0;
+    min-height: 132px;
+    padding: 16px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #home .grid-cols-3 > div > div:first-child {
+    width: 100%;
+    font-size: 25px;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+  #home .grid-cols-3 > div > div:last-child {
+    line-height: 1.5;
+  }
+  #contacto .space-y-5 > div:first-child {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+  #contacto .space-y-5 > div:first-child > div:first-child {
+    min-width: 0;
+    align-items: center;
+  }
+  #contacto .space-y-5 > div:first-child > div:first-child > div:last-child {
+    min-width: 0;
+  }
+  #contacto .space-y-5 > div:first-child > a {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style></head>
 <body id="inicio">
   <div id="root"><div class="min-h-screen bg-[#0B0F0A] text-[#E8EBE4] selection:bg-[#8BC53F] selection:text-black font-[Geist,Inter,system-ui,sans-serif] overflow-x-clip antialiased"><style>
         @import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap');
